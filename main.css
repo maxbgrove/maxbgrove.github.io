@@ -59,12 +59,12 @@ body {
 }
 
 .top-img {
-	width: 17%;
+	width: 125px;
 	margin: 1em auto;
 	display: block;
 }
 .content-img {
-	width: 30%;
+	width: 150px;
 	margin: 0em 2em;
 	float: right;
 }
