@@ -9,13 +9,16 @@
 	</head>
 	
 	<body>
-		<ul class="header">
-			<li><a href="index.html" id="headerLink">Home</a></li>
-			<li><a href="professional.html" id="headerLink">Professional</a></li>
-			<li><a href="education.html" id="headerLink">Education</a></li>
-			<li><a href="leadership.html" id="headerLink">Leadership</a></li>
-			<li><a href="coding.html" id="headerLink">Coding</a></li>
-		</ul>
+		
+		<div class="header" id="myHeader">
+  			<a href="index.html">Home</a>
+  			<a href="professional.html">Professional</a>
+			<a href="education.html">Education</a>
+  			<a href="leadership.html">Leadership</a>
+			<a href="coding.html">Coding</a>
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+		
 		<div class="content">
 			<h3>Max B. Grove</h3>
 			<h6>Striving for greatness.</h6>
@@ -40,5 +43,21 @@
 			<p>This website was created to showcase my achievements and talents! Feel free to reach out to me at <a href="mailto:maxgrove@sas.upenn.edu">my email address!</a></p>
 		</div>
 		
+		
+		
+		
+		
+		
+		<script>
+			/* Toggle between adding and removing the "responsive" class to header when the user clicks on the icon */
+			function myFunction() {
+				var x = document.getElementById("myHeader");
+    			if (x.className === "header") {
+					x.className += " responsive";
+    			} else {
+        			x.className = "header";
+    			}
+			}
+		</script>
 	</body>
 </html>
